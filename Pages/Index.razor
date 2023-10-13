@@ -1,12 +1,3 @@
 ﻿@page "/"
-@using Syncfusion.Blazor.Inputs
 
-<SfNumericTextBox Width="150px" TValue="int?"
-                  Value=10 Max=100 Min=1 Step=5
-                  Format="###.##"
-                  Decimals="2"
-                  ValidateDecimalOnType=true>
-</SfNumericTextBox>
-
-@*Format="000.00"
- Format="c2"*@
+<SfNumericTextBox TValue="int?" Value=5 Max=100 Min=1 Step=5 Format="c2" Width="150px"></SfNumericTextBox>
